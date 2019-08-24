@@ -72,6 +72,10 @@ body {
   margin: 40px auto;
 }
 
+.caption-container {
+  height: 15%;
+}
+
 .flex-container-links {
   margin: 10px;
   text-align: center;
@@ -82,6 +86,10 @@ body {
 .flex-container-links p {
   color: white;
   text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
 }
 
 .image-container {
